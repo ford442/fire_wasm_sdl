@@ -1,0 +1,4 @@
+[Project]
+Name=fire_wasm_sdl
+Manager=KDevCMakeManager
+VersionControl=

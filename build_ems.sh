@@ -1,2 +1,1 @@
-emcc main.c hsltorgb.c -s WASM=1 -s USE_SDL=2 -o fire.html -s ALLOW_MEMORY_GROWTH=1
-firefox fire.html
+emcc main.c hsltorgb.c -s USE_SDL=2 -o fire.js -sMALLOC="emmalloc" -sENVIRONMENT=web -sINITIAL_MEMORY=700mb -sALLOW_MEMORY_GROWTH=0 --closure 1 -g0
